@@ -4,8 +4,8 @@ import TextInput from "@/Components/TextInput.vue";
 import PrimaryButton from "@/Components/PrimaryButton.vue";
 import { Link } from '@inertiajs/vue3';
 import {ref, watch} from "vue";
-import { listProducts } from "@/Helpers/cart.js";
-import {debounce} from "@/Helpers/utils.js";
+import { listProducts } from "@/Helpers/Cart.js";
+import {debounce} from "@/Helpers/Utils.js";
 
 const originalProducts = ref([]);
 const products = ref([]);

@@ -8,7 +8,7 @@ import "ag-grid-community/styles/ag-grid.css"; // Mandatory CSS required by the 
 import "ag-grid-community/styles/ag-theme-quartz.css"; // Optional Theme applied to the Data Grid
 import { AgGridVue } from "ag-grid-vue3";
 import {Link} from "@inertiajs/vue3";
-import {debounce} from "@/Helpers/utils.js"; // Vue Data Grid Component
+import {debounce} from "@/Helpers/Utils.js"; // Vue Data Grid Component
 
 const rowData = ref([]);
 const productsOriginal = ref([]);

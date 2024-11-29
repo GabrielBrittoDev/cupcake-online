@@ -5,7 +5,7 @@ import TextInput from "@/Components/TextInput.vue";
 import PrimaryButton from "@/Components/PrimaryButton.vue";
 import {ref, watch} from "vue";
 import axios from "axios";
-import {debounce} from "@/Helpers/utils.js";
+import {debounce} from "@/Helpers/Utils.js";
 
 const ordersOriginal = ref([]);
 const orders = ref([]);

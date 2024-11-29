@@ -7,7 +7,7 @@ import "ag-grid-community/styles/ag-theme-quartz.css"; // Optional Theme applied
 import { AgGridVue } from "ag-grid-vue3";
 import {Link} from "@inertiajs/vue3";
 import PrimaryButton from "@/Components/PrimaryButton.vue";
-import {debounce} from "@/Helpers/utils.js"; // Vue Data Grid Component
+import {debounce} from "@/Helpers/Utils.js"; // Vue Data Grid Component
 
 const rowData = ref([]);
 const search = ref('');

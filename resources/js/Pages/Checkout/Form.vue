@@ -6,7 +6,7 @@ import TextArea from "@/Components/TextArea.vue";
 import PrimaryButton from "@/Components/PrimaryButton.vue";
 import {ref} from "vue";
 import axios from "axios";
-import {clearCart, listProducts} from "@/Helpers/cart.js";
+import {clearCart, listProducts} from "@/Helpers/Cart.js";
 import {Link, router} from "@inertiajs/vue3";
 import Dropdown from "@/Components/Dropdown.vue";
 

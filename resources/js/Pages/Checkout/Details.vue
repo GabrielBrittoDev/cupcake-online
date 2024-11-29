@@ -3,7 +3,7 @@ import AppLayout from '@/Layouts/AppLayout.vue';
 import PrimaryButton from "@/Components/PrimaryButton.vue";
 import CounterInput from "@/Components/CounterInput.vue";
 import {ref} from "vue";
-import {calculateTotal, listProducts, updateCart} from "@/Helpers/cart.js";
+import {calculateTotal, listProducts, updateCart} from "@/Helpers/Cart.js";
 import {Link, router} from '@inertiajs/vue3';
 
 const products = ref(listProducts() || []);
